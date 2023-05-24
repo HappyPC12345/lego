@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+  }
+
+  .main-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    z-index: 10;
+  }
+
+  .main-navigation-item {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  
+    /* padding: 5px 10px; */
+  }
+
+  .main {
+    background-image: url("https://as1.ftcdn.net/v2/jpg/03/66/54/36/1000_F_366543694_gct8ekpGaQEV3PdY8FuyYrNwEaRa1fiY.jpg");
+    height: calc(100vh - 100px);
+    color: white;
+    text-align: center;
+    background-size: cover;
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .main-navigation {
+    display: flex;
+    list-style: none;
+  }
+
